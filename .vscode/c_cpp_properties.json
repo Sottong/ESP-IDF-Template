@@ -7,9 +7,7 @@
                 "${workspaceFolder}/build/include/*",
                 "/Users/syaifullutfi/mine/esp/ESP8266_RTOS_SDK/components/**",
                 "/Users/syaifullutfi/mine/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include",
-                "/Users/syaifullutfi/mine/esp/ESP-IDF-Library/components",
-                "/Users/syaifullutfi/mine/esp/ESP-IDF-Library?**"
-
+                "/Users/syaifullutfi/mine/esp/ESP-IDF-Library/components"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
