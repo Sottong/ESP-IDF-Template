@@ -2,7 +2,9 @@
     "files.associations": {
         "freertos.h": "c",
         "stdio.h": "c",
-        "ds1307.h": "c"
+        "ds1307.h": "c",
+        "task.h": "c"
     },
     "idf.adapterTargetName": "esp8266",
+    "cmake.sourceDirectory": "${workspaceFolder}/default"
 }
