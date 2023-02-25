@@ -1,7 +1,13 @@
-# ESP-IDF-Template
-template ESP-IDF untuk ESP8266 untuk tiap project
+# ESP-IDF-Template-modular
 
-#setting PATH
-Set PATH :      export PATH=$PATH:/Users/syaifullutfi/mine/esp/xtensa-lx106-elf/bin
+check list general modular for ESP-IDF / RTOS_SDK ESP8266
 
-set IDF_PATH : export IDF_PATH=/Users/syaifullutfi/mine/esp/ESP8266_RTOS_SDK
+- Wi-Fi
+- MQTT
+- HTTP
+- interupt
+- config umum
+- OTA
+- main_mod.h
+
+

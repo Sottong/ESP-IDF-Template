@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"freertos.h": "c",
+			"stdio.h": "c",
+			"ds1307.h": "c",
+			"task.h": "c",
+			"gpio.h": "c",
+			"eagle_soc.h": "c"
+		}
+	}
+}

@@ -23,8 +23,31 @@
 
 #include "mqtt_client.h"
 
+#define RTOS_MS(ms) pdMS_TO_TICKS(ms)
+#define RTOS_SEC(sec) pdMS_TO_TICKS(sec*1000)
+
+#define TASK_DELAY_MS(ms) vTaskDelay(RTOS_MS(ms))
+#define TASK_DELAY_SEC(sec) vTaskDelay(RTOS_SEC(sec))
+
+
 //#include "protocol_examples_common.h"
 
-
+/* modul init */
 void wifi_init();
-void mqtt_server_init();
+void mqttc_client_init();
+
+/* global flag */
+
+bool flag_wifi_sta_connected;
+bool flag_mqtt_connected;
+
+/*  MQTT    */
+
+// Topic 
+extern const char* TOPIC_HEADER;
+
+extern const char* TOPIC_DEVICE;
+
+extern const char* TOPIC_SEN_VOL;
+extern const char* TOPIC_SEN_CRN;
+extern const char* TOPIC_SEN_PWR;
