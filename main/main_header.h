@@ -43,6 +43,14 @@ bool flag_mqtt_connected;
 
 /*  MQTT    */
 
+// Parameter
+extern const char* MQTT_BROKER_URL;
+extern const uint32_t MQTT_BROKER_PORT;
+
+// Kredensial
+extern const char* TEST_MQTTC_USER;
+extern const char* TEST_MQTTC_PASS;
+
 // Topic 
 extern const char* TOPIC_HEADER;
 
@@ -51,3 +59,5 @@ extern const char* TOPIC_DEVICE;
 extern const char* TOPIC_SEN_VOL;
 extern const char* TOPIC_SEN_CRN;
 extern const char* TOPIC_SEN_PWR;
+
+extern const char* TOPIC_ONLINE;

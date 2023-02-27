@@ -2,11 +2,14 @@
 
 static const char *TAG = "WI-FI";
 
-// #define EXAMPLE_ESP_WIFI_SSID      "ElisaCom_Kos"
+// #define EXAMPLE_ESP_WIFI_SSID      "ElisaCom_Kos2"
 // #define EXAMPLE_ESP_WIFI_PASS      "kosElisa12345"
 
-#define EXAMPLE_ESP_WIFI_SSID      "123"
-#define EXAMPLE_ESP_WIFI_PASS      "innovate"
+#define EXAMPLE_ESP_WIFI_SSID      "ElisaCom_Kos"
+#define EXAMPLE_ESP_WIFI_PASS      "kosElisa12345"
+
+// #define EXAMPLE_ESP_WIFI_SSID      "123"
+// #define EXAMPLE_ESP_WIFI_PASS      "innovate"
 
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 

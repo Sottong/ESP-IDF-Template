@@ -11,7 +11,8 @@
 			"ds1307.h": "c",
 			"task.h": "c",
 			"gpio.h": "c",
-			"eagle_soc.h": "c"
+			"eagle_soc.h": "c",
+			"main_header.h": "c"
 		}
 	}
 }
