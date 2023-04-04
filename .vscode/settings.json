@@ -3,7 +3,11 @@
         "freertos.h": "c",
         "stdio.h": "c",
         "ds1307.h": "c",
-        "task.h": "c"
+        "task.h": "c",
+        "cse7766.h": "c",
+        "uart.h": "c",
+        "gpio.h": "c",
+        "esp_event.h": "c"
     },
     "idf.adapterTargetName": "esp8266",
     "cmake.sourceDirectory": "${workspaceFolder}/default"
